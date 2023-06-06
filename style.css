@@ -1,0 +1,24 @@
+body {
+    margin: 2%;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+}
+
+.valores {
+    margin-bottom:5px;
+}
+
+.adicionar {
+    margin-bottom: 40px;
+}
+
+.retorno {
+    border: 3px solid black
+}
+
+.retorno input{
+    border: 0px;
+}
