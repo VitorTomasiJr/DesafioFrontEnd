@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Desafio Vitor Tomasi</title>
+</head>
+
+<body>
+    <div class="geral">
+        <div class="valores">
+            <div class="campos">
+                <input type="text" name="nome" placeholder="Nome">
+                <input type="number" name="valor" placeholder="Valor">
+            </div>
+        </div>
+        <input type="button" class="adicionar" id="adicionar" value="Adicionar mais valores">
+        <div>
+            <input type="number" name="acrescimoReais" id="acrescimoReais" placeholder="Acréscimo em $">
+            <input type="number" name="descontoReais" id="descontoReais" placeholder="Desconto em $">
+        </div>
+        <div>
+            <input type="number" name="acrescimoPerc" id="acrescimoPerc" placeholder="Acréscimo em %">
+            <input type="number" name="descontoPerc" id="descontoPerc" placeholder="Desconto em %">
+        </div>
+        <input type="button" id="calcular" value="Calcular">
+    </div>
+    <h2>Retorno</h2>
+    <div class="retorno">
+        <div>
+            <input type="text" name="nome" value="Nome">
+            <input type="text" name="nome" value="Valor">
+            <input type="text" name="nome" value="Link Pagamento">
+        </div>
+        <div id="retorno">
+        </div>
+    </div>
+</body>
+
+</html>
